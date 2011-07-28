@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center">
+	<Button android:id="@+id/mygtukas1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/mygtuko_tekstas"
+		android:minHeight="92dp" android:textSize="22dp" android:onClick="mygtukoVeiksmas"></Button>
+	<ImageButton android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/fwd"
+		android:id="@+id/mygtukas_su_paveiksleliu" android:layout_below="@+id/mygtukas1"></ImageButton>
+</RelativeLayout>
